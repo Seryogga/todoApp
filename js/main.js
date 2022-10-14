@@ -11,7 +11,6 @@ if (tasksLS) {
 	tasks.forEach((task) => renderTask(task));
 }
 
-
 checkEmptyList();
 
 form.addEventListener("submit", addTask);
