@@ -13,20 +13,19 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/main.css" />
-    <title>ToDo приложение</title>
+    <title>ToDo App</title>
   </head>
   <body>
     <div class="container">
-      <div class="display-4 mb-2">ToDo приложение</div>
-      <div class="h4 mb-5">список задач на сегодня</div>
+      <div class="display-4 mb-2">ToDo App</div>
+      <div class="h4 mb-5">The List of Tasks for Today</div>
       <!-- List of tasks -->
       <div class="card mb-4">
-        <ul id="tasksList" class="list-group list-group-flush">
-        </ul>
+        <ul id="tasksList" class="list-group list-group-flush"></ul>
       </div>
       <!-- Form -->
       <div class="card bg-light">
-        <div class="card-header">Добавить новую задачу</div>
+        <div class="card-header">Add New Task</div>
         <div class="card-body">
           <form id="form">
             <div class="form-group">
@@ -43,15 +42,12 @@
               >
             </div>
             <button type="submit" class="btn btn-primary btn-lg active">
-              Добавить
+              Add
             </button>
           </form>
         </div>
       </div>
       <!-- //Form  -->
-      <button id="removeDoneTasks" class="btn btn-secondary mt-4 float-right">
-        Удалить выполненные задачи
-      </button>
     </div>
     <footer class="copyright">Sergey Myradov</footer>
     <script src="js/main.js"></script>
